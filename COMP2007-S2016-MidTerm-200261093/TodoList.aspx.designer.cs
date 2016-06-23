@@ -13,6 +13,15 @@ namespace COMP2007_S2016_MidTerm_200261093 {
     public partial class TodoList {
         
         /// <summary>
+        /// PageSizeDropdownList control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList PageSizeDropdownList;
+        
+        /// <summary>
         /// TodoGridview control.
         /// </summary>
         /// <remarks>

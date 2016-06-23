@@ -5,6 +5,10 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+//Austin Cameron
+//Midterm S2016
+//5 pm to 7:50 pm
+
 //using statements required for EF DB access
 using COMP2007_S2016_MidTerm_200261093.Models;
 using System.Web.ModelBinding;
@@ -15,7 +19,9 @@ namespace COMP2007_S2016_MidTerm_200261093
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if((!IsPostBack) && (Request.QueryString.Count > 0)){
+               // this.GetTodo();
+            }
         }
         
         protected void CancelButton_Click(object sender, EventArgs e)
